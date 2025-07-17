@@ -1,6 +1,5 @@
-'use client'
-
-import { useEffect } from 'react'
+import './globals.css'
+import MiniAppWrapper from './miniapp-wrapper'
 
 export const metadata = {
   title: 'Whale Watcher',
@@ -15,24 +14,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  useEffect(() => {
-    const url = new URL(window.location.href)
-    const isMiniApp =
-      url.pathname.startsWith('/mini') ||
-      url.searchParams.get('miniApp') === 'true'
-
-    if (isMiniApp) {
-      import('@farcaster/miniapp-sdk').then(({ sdk }) => {
-        // Farcaster Mini App 用の初期化処理（例: readyシグナル）
-        sdk.actions.ready()
-      })
-    }
-  }, [])
-
   return (
     <html lang="en">
-      <head />
-      <body>{children}</body>
+      <body>
+        <MiniAppWrapper>{children}</MiniAppWrapper>
+      </body>
     </html>
   )
 }
