@@ -1,12 +1,14 @@
 {
+  "version": "1",
   "id": "whale_watcher",
   "name": "Whale Watcher",
   "description": "Check ERC20 token balance for any wallet.",
-  "icon": "https://whale-watcher-alpha.vercel.app/favicon.ico",
+  "icon": "https://whale-watcher-alpha.vercel.app/icon.png",
   "url": "https://whale-watcher-alpha.vercel.app",
   "accountAssociation": {
     "header": "eyJmaWQiOjI5MDU5OSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDdBNWQ0NzMzRGIyYkUxOTZjOUFEQTUwNDI4NzM3YjY3ODI5MDAwRDMifQ",
     "payload": "eyJkb21haW4iOiJ3aGFsZS13YXRjaGVyLWFscGhhLnZlcmNlbC5hcHAifQ",
-    "signature": "6m2bUzWiODxMNjQ07lTfUITBYOTFjWmNG1hxEOiITCx2bJqCqPr2YbG2abE3My0VkJuM2ASEXFHIKG5UpekjHxw="
+    "signature": "6m2bUzWiODxMNjQ07lTfUITBYOTFjWmNG1hxEOiITCx2bJqCqPr2YbG2abE3My0VkJuM2ASEXFHIKG5UpekjHxw"
   }
 }
+
