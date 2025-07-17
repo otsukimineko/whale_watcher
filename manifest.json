@@ -1,0 +1,7 @@
+{
+  "id": "whale_watcher",
+  "name": "Whale Watcher",
+  "description": "Check ERC20 token balance for any wallet.",
+  "icon": "https://your-domain.com/favicon.ico",
+  "url": "https://your-domain.com"
+}
