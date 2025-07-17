@@ -1,8 +1,9 @@
+// app/page.tsx
 export default function Home() {
   return (
     <main>
       <h1>Whale Watcher</h1>
-      <p>Mini App for viewing ERC20 balances.</p>
+      <p>This is a Mini App to check ERC20 balances.</p>
     </main>
   )
 }
