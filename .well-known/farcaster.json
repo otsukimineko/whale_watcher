@@ -1,0 +1,7 @@
+{
+  "id": "whale_watcher",
+  "name": "Whale Watcher",
+  "description": "Check ERC20 token balance for any wallet.",
+  "icon": "https://whale-watcher-alpha.vercel.app/favicon.ico",
+  "url": "https://whale-watcher-alpha.vercel.app"
+}
