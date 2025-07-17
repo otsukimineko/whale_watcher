@@ -1,7 +1,19 @@
 {
-  "id": "whale_watcher",
+  "id": "whale-watcher",
   "name": "Whale Watcher",
-  "description": "Check ERC20 token balance for any wallet.",
-  "icon": "https://your-domain.com/favicon.ico",
-  "url": "https://your-domain.com"
+  "description": "Check ERC20 balances of any address.",
+  "icon": "https://your-deployed-url.vercel.app/icon.png",
+  "url": "https://your-deployed-url.vercel.app",
+  "developer": {
+    "name": "kitsune",
+    "website": "https://your-website.com"
+  },
+  "actions": [
+    {
+      "name": "Check Balance",
+      "description": "Enter address and token to see balance",
+      "path": "/",
+      "type": "post_redirect"
+    }
+  ]
 }
