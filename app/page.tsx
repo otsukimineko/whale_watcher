@@ -2,11 +2,7 @@
 import { useState } from 'react'
 import { ethers } from 'ethers'
 
-// ✅ <head> に metadata を追加（Next.js 13以降で有効）
-export const metadata = {
-  title: 'Whale Watcher',
-  description: 'Check ERC20 token balance for any wallet.',
-}
+
 
 export default function Home() {
   const [wallet, setWallet] = useState('')
